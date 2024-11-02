@@ -43,4 +43,4 @@ If you have any concerns, [DM me on Matrix](https://matrix.to/#/@notnapoleon:env
 
 ## Future Potential
 
-It's theoretically possible to Libreboot this machine internally. I may try this out when I have the time and resources to, and if I can get it to work reliably. So maybe one day, you can have a fast, librebooted desktop without needing to jump through a bunch of hurdles... maybe :)
+It's theoretically possible to Libreboot this machine internally. I may try this out when I have the time and resources to. So maybe one day, you can have a fast, librebooted desktop without needing to jump through a bunch of hurdles... maybe :)
