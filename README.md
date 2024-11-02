@@ -9,7 +9,7 @@ While the Dell Precision T1650 and Optiplex 7010 are old by today's standards, t
 
 ## Why this repository exists
 
-The problem with this machine is that it's one of Libreboot's [Binary Blob Reduction Policy](https://libreboot.org/news/policy.html) machines. If you flash one of the release ROMs from Libreboot's website for this machine without, the computer will not be post because these ROMs do not include the proprietary vendor files (which are unfortunately required for the machine to post).
+The problem with this machine is that it's one of Libreboot's [Binary Blob Reduction Policy](https://libreboot.org/news/policy.html) machines. If you flash one of the release ROMs from Libreboot's website for this machine without any modification, the computer will not be post because these ROMs do not include the proprietary vendor files (which are unfortunately required for the machine to post).
 
 You can either inject the vendor files into a release ROM or you can compile the ROM yourself using [lbmk](https://libreboot.org/docs/build/). However, I ran into some problems doing either of these on Debian/Ubuntu, so I compiled Libreboot in an Arch Linux VM.
 
