@@ -15,9 +15,9 @@ You can either inject the vendor files into a release ROM or you can compile the
 
 TLDR - this repo exists for the sake of convenience and so you don't have to go as much pain as I went into lol.
 
-## Warning
+## WARNING
 
-While I have tested these ROMs and you are free to use them, you use them at your own risk. I advise you read the documentation provided by Libreboot so you know what you're getting yourself into. I will not take responsibility for your bricked machine.
+While I have tested these ROMs and you are free to use them, you use them at your own risk. I suggest you read the documentation provided by Libreboot so you know what you're getting yourself into. I will not take responsibility for your bricked machine.
 
 ## Checksums (SHA256)
 
@@ -27,9 +27,13 @@ Verify the checksums to ensure the integrity of the ROMs. To do this, use the `s
 - 4mb.rom: `dc70bc00acd7a97d88dbc314891e2be6bf807cf09e3445d17eff875d7dd3755b`
 - 8mb.rom: `e9c76613e111b3ab7209dd9aeae3eddfb99382d9a095b3970670e1de73b4a23e`
 
-`libreboot.rom` is the original 12MB ROM that was compiled. However, this computer's motherboard has two flash chips (either 2xSOIC-8 or SOIC-8+SOIC-16) so the ROM has to be split into different files, which I have already done for you, but I left the original 12MB ROM here as it may be helpful.
+`libreboot.rom` is the original 12MB ROM that I compiled. However, this computer's motherboard has two flash chips (either 2 x SOIC-8 or SOIC-8 + SOIC-16) so the ROM has to be split into different files, which I have already done for you, but I left the original 12MB ROM here as it may be helpful.
+
+If your motherboard has an SOIC-16 flash chip, that one will be for the 8MB ROM. Mine has two SOIC-8 chips (the left one is for the 4MB ROM, the right one is for the 8MB ROM).
 
 ## Additional Notes/Resources
+
+If you're not using a dedicated GPU, make sure your CPU has integrated graphics. If you are using a dedicated GPU, I would suggest using a CPU without integrated graphics. 
 
 - [My video about Libreboot on the T1650](https://libreboot.org/docs/install/t1650.html)
 - [T1650 Libreboot Documentation](https://libreboot.org/docs/install/t1650.html)
