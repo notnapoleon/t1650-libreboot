@@ -35,7 +35,7 @@ If your motherboard has an SOIC-16 flash chip, that one will be for the 8MB ROM.
 
 If you're not using a dedicated GPU, make sure your CPU has integrated graphics. If you are using a dedicated GPU, I would suggest using a CPU without integrated graphics. 
 
-- [My video about Libreboot on the T1650](https://libreboot.org/docs/install/t1650.html)
+- [My video about Libreboot on the T1650](https://www.youtube.com/watch?v=HxsQ4j8U_Fk)
 - [T1650 Libreboot Documentation](https://libreboot.org/docs/install/t1650.html)
 - [External Flashing Documentation](https://libreboot.org/docs/install/spi.html) (I used the CH341A which Libreboot advises against... idk whether you should use it, but it seems to work fine as long as it's wired correctly)
 
