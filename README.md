@@ -13,7 +13,7 @@ The problem with this machine is that it's one of Libreboot's [Binary Blob Reduc
 
 You can either inject the vendor files into a release ROM or you can compile the ROM yourself using [lbmk](https://libreboot.org/docs/build/). However, I ran into some problems doing either of these on Debian/Ubuntu, so I compiled Libreboot in an Arch Linux VM.
 
-TLDR - this repo exists for the sake of convenience and so you don't have to go as much pain as I went into lol.
+TLDR - this repo exists for the sake of convenience and so you don't have to go through as much pain as I did lol.
 
 ## WARNING
 
