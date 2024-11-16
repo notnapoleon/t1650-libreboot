@@ -3,7 +3,7 @@ ROM files for Dell Precision T1650 / Optiplex 7010 (and the 9010 in theory).
 
 ## Intro
 
-Libreboot is a project designed to replace your computer's proprietary BIOS with free (libre) firmware. 
+Libreboot is a project designed to replace your computer's proprietary BIOS with *mostly* free (libre) firmware. 
 
 While the Dell Precision T1650 and Optiplex 7010 are old by today's standards, they're new enough to support hardware capable of heavier workloads like video editing, CAD, and virtualisation. These machines are also very common, cheap, and use fairly standard desktop hardware, so you can easily add/upgrade hardware (like the RAM, storage, graphics card, and power supply).
 
